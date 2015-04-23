@@ -1,0 +1,46 @@
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\FoodOrder.dll.config
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\FoodOrder.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\FoodOrder.pdb
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Helpers.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Mvc.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Razor.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.Deployment.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.Razor.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Razor.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.Deployment.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Webpages.Razor.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Helpers.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\bin\System.Web.Mvc.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\obj\Debug\FoodOrder.Web.csprojResolveAssemblyReference.cache
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\obj\Debug\FoodOrder.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder\obj\Debug\FoodOrder.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.dll.config
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\EntityFramework.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\EntityFramework.SqlServer.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Process.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Helpers.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Mvc.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Razor.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.Razor.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Process.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\EntityFramework.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\EntityFramework.SqlServer.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Razor.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Webpages.Razor.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Helpers.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\bin\System.Web.Mvc.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\obj\Debug\FoodOrder.Web.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\obj\Debug\FoodOrder.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder\obj\Debug\FoodOrder.pdb

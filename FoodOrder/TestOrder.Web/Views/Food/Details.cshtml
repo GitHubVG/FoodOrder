@@ -1,0 +1,61 @@
+﻿@model FoodOrder.Entities.Food
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Food</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameOfTheFood)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameOfTheFood)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AverageScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AverageScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant.RestaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant.RestaurantName)
+        </dd>
+
+     
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FoodOrder.Entities.Restaurant>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RestaurantName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RestaurantName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+            @using (Html.BeginForm("Delete", "Restaurants", new { id = item.ID }))
+            {
+             @Html.AntiForgeryToken()
+            <td><input class="buttonCss" id="Submit1" type="submit" value="Delete" na onclick="return confirm('Jeste li sigurni da želite obrisati restoran @item.RestaurantName iz baze?')" /></td>
+
+            }
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,60 @@
+﻿@model FoodOrder.Entities.Score
+
+@{
+    ViewBag.Title = "SetScore";
+}
+
+<h2>SetScore</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Score</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+
+        @if (!@ViewBag.DidUSerAlreadyVote)
+        {
+            <div class="form-group">
+                @Html.LabelFor(model => model.ReviewScore, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ReviewScore, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ReviewScore, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="form-group">               
+                @Html.LabelFor(model => model.ReviewScore, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                <div class="col-md-10">
+                    <p style="color:red;font-weight:bold;font-size:16px">Već ste glasovali. Vaša ocijena: @ViewBag.Score</p>
+                    
+                </div>
+              
+               
+            </div>
+        }
+
+
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

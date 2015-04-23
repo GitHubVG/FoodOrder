@@ -1,0 +1,31 @@
+﻿@model IEnumerable<FoodOrder.Entities.Restaurant>
+
+@{
+    ViewBag.Title = "Glasovanje traje od 8:00 do 13:00.";
+}
+
+<h2>Odakle želite danas jesti?</h2>
+
+
+<table class="table">
+    <tr>
+        @if(ViewBag.Time>8 && ViewBag.Time<13)
+        { 
+        using (Html.BeginForm("VoteForCatering", "Home"))
+        {
+            <p>
+                @Html.DropDownList("FoodByRestaurant", null, htmlAttributes: new { @class = "form-control" })
+                <br />
+                <input type="submit" value="Submit" class="btn btn-default" />
+            </p>
+        }
+        }
+        else
+        {
+          @:<text class="glasovanje">Vrijeme glasovanja je za danas završeno! Glasuje se od 8:00 do 13:00</text>
+        }
+
+    </tr>
+
+
+</table>

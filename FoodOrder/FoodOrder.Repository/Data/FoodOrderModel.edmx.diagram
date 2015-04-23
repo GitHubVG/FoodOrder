@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9f0c4833c230487a98e71848014dc12c" Name="Diagram1">
+        <EntityTypeShape EntityType="NarucivanjeHraneModel.Food" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NarucivanjeHraneModel.Order" Width="1.5" PointX="7.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NarucivanjeHraneModel.Person" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="NarucivanjeHraneModel.Restaurant" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NarucivanjeHraneModel.Score" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Food__Restaurant__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Food__UserID__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Order__FoodId__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Score__FoodID__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Order__PersonID__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Person__Restaura__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="NarucivanjeHraneModel.FK__Score__PersonID__0A9D95DB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

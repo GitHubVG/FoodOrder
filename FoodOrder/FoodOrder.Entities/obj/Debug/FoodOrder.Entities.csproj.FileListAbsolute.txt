@@ -1,0 +1,10 @@
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.pdb
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.pdb
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.pdb

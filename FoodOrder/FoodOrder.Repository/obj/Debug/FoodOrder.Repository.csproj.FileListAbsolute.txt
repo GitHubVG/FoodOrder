@@ -1,0 +1,22 @@
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.pdb
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.csprojResolveAssemblyReference.cache
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.pdb
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll.config
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.xml
+D:\Programiranje\Web C# PROJEKTI\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll.config
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.xml
