@@ -1,7 +1,12 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/Highcharts-4.0.1/js/highcharts.js"></script>
+<script src="~/Scripts/jquery-2.1.1.min.js"></script>
+<script src="~/Scripts/jsapi.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+<script src="~/Scripts/MyChart.js"></script>
 <div class="jumbotron">
     <h1 class="naslov">NARUČIVANJE HRANE</h1>
     
@@ -16,11 +21,12 @@
         </p>
         <p>@Html.ActionLink("Ispis restorana", "Index", "Restaurants",null, new { @class = "btn btn-default" })</p>
     </div>
-    <div class="col-md-4">
-        <h2>Ovdje ide HighCharts graf.</h2>
-        <p>GRAF!</p>
-        <p></p>
+    <div class="col-md-4" id="piechart" style="height:400px; font-size:18px;">
+
+             
+
     </div>
+    
     <div class="col-md-4">
         <h2>Hrana po restoranu.</h2>
         <p class="bojaTeksta">Odaberite restoran za ispis menija.</p>

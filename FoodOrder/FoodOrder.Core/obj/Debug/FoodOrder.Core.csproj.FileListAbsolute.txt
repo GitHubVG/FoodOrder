@@ -16,3 +16,16 @@ C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Core\bin\Debu
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Process.pdb
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Repository.pdb
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Core\bin\Debug\EntityFramework.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Core.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Core.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Process.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\EntityFramework.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Process.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\EntityFramework.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.pdb

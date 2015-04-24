@@ -7,16 +7,18 @@ using FoodOrder.Repository.Data;
 using FoodOrder.Repository;
 using System.Web.Security;
 using Microsoft.AspNet.Identity;
+using FoodOrder.Core;
 namespace TestOrder.Web.Controllers
     
 {
     public class HomeController : Controller
     {
         private UnitOfWork unitOfWork;
-       
+        private PieChart pieChart;
         public HomeController()
         {
             unitOfWork = new UnitOfWork();
+            pieChart = new PieChart();
             
         }
 
@@ -26,6 +28,13 @@ namespace TestOrder.Web.Controllers
  
             ViewBag.FoodByRestaurant = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName");
             return View();
+        }
+
+        public JsonResult GetVotes()
+        {
+            
+            var chartData = pieChart.InfoToDisplayInPieChart().Select(x => new { RestaurantName = x.RestaurantName, Broj = x.NumbrOfVotes }).ToList();
+            return Json(chartData, JsonRequestBehavior.AllowGet);
         }
 
         public ActionResult About()
@@ -61,7 +70,7 @@ namespace TestOrder.Web.Controllers
            unitOfWork.PersonRepository.Update(currentPerson);
            unitOfWork.Save();
 
-           return View("Index");
+           return RedirectToAction("Index");
         }
     }
 }
