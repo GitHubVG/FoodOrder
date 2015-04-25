@@ -9,21 +9,29 @@ using System.Web.Mvc;
 using FoodOrder.Entities;
 using FoodOrder.Repository.Data;
 using FoodOrder.Repository;
+using FoodOrder.Core;
 
 namespace FoodOrder.Controllers
 {
     public class RestaurantsController : Controller
     {
         private UnitOfWork unitOfWork;
-
+        private MappingDTO mappingDto;
+        private GenericRepository<Restaurant> mockRestaurants;
         public RestaurantsController()
         {
             unitOfWork = new UnitOfWork();
+            mappingDto = new MappingDTO();
+            
+        }
 
+        public RestaurantsController(GenericRepository<Restaurant> mockRestaurants)
+        {
+            this.mockRestaurants = mockRestaurants;
         }
 
         // GET: Restaurants
-        public ActionResult Index()
+        public ActionResult Index( )
         {
             var restaurants = unitOfWork.RestaurantRepository.Get();
             return View(restaurants.ToList());
@@ -54,7 +62,7 @@ namespace FoodOrder.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var restaurant = unitOfWork.RestaurantRepository.GetByID(id);
+            var restaurant = mappingDto.getRestaurantById(unitOfWork.RestaurantRepository.GetByID(id));
             if (restaurant == null)
             {
                 return HttpNotFound();

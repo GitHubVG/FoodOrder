@@ -11,7 +11,6 @@ namespace FoodOrder.Entities
 {
     using System;
     using System.Collections.Generic;
-    
     public partial class Food
     {
         public Food()

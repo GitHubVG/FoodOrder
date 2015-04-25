@@ -8,3 +8,13 @@ C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\bin\
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.dll
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\AutoMapper.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\AutoMapper.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\AutoMapper.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Entities\obj\Debug\FoodOrder.Entities.pdb

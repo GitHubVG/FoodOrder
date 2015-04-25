@@ -177,7 +177,7 @@ namespace TestOrder.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public ActionResult SetScore(Score score, int id)
+        public ActionResult SetScore(Score score, int id,int VotingScore)
         {
             var idOfLoggedUserFromLocalDb = User.Identity.GetUserId(); //ID trenutnog korisnika
 
@@ -185,6 +185,7 @@ namespace TestOrder.Web.Controllers
 
             score.FoodID = id;
             score.PersonID = curretUser.ID;
+            score.ReviewScore = VotingScore;
             if (ModelState.IsValid)
             {
                 unitOfWork.ScoreRepository.Insert(score);

@@ -15,17 +15,18 @@ namespace TestOrder.Web.Controllers
     {
         private UnitOfWork unitOfWork;
         private PieChart pieChart;
+        private Votes votes;
         public HomeController()
         {
             unitOfWork = new UnitOfWork();
             pieChart = new PieChart();
-            
+            votes = new Votes();
         }
 
         public ActionResult Index()
         {
-      
- 
+
+            votes.removeAllVotes();
             ViewBag.FoodByRestaurant = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName");
             return View();
         }

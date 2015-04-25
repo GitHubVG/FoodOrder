@@ -10,3 +10,20 @@ C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\bi
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Data.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.dll
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll.config
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\AutoMapper.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Entities.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\FoodOrder.Entities.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\AutoMapper.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\AutoMapper.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Data.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Repository\obj\Debug\FoodOrder.Repository.pdb

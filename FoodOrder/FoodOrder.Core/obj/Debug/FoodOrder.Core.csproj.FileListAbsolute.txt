@@ -29,3 +29,6 @@ C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\Enti
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\obj\Debug\FoodOrder.Core.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\AutoMapper.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\AutoMapper.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Core\bin\Debug\AutoMapper.xml

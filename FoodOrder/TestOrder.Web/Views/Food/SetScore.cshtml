@@ -19,13 +19,23 @@
 
         @if (!@ViewBag.DidUSerAlreadyVote)
         {
+       
             <div class="form-group">
                 @Html.LabelFor(model => model.ReviewScore, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.EditorFor(model => model.ReviewScore, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.ReviewScore, "", new { @class = "text-danger" })
+                   @Html.DropDownList("VotingScore", new List<SelectListItem>()
+                    {
+                      new SelectListItem { Text="1", Value="1"},
+                      new SelectListItem { Text="2", Value="2"},
+                      new SelectListItem { Text="3", Value="3"},
+                      new SelectListItem { Text="4", Value="4"},
+                      new SelectListItem { Text="5", Value="5"},
+
+                    })
+
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
                     <input type="submit" value="Save" class="btn btn-default" />
@@ -34,15 +44,15 @@
         }
         else
         {
-            <div class="form-group">               
+            <div class="form-group">
                 @Html.LabelFor(model => model.ReviewScore, htmlAttributes: new { @class = "control-label col-md-2" })
 
                 <div class="col-md-10">
                     <p style="color:red;font-weight:bold;font-size:16px">Već ste glasovali. Vaša ocijena: @ViewBag.Score</p>
-                    
+
                 </div>
-              
-               
+
+
             </div>
         }
 
