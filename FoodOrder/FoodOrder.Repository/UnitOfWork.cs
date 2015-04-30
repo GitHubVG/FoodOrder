@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FoodOrder.Entities;
+using FoodOrder.Entities.DTO;
 
 namespace FoodOrder.Repository
 {
@@ -16,6 +17,7 @@ namespace FoodOrder.Repository
         private GenericRepository<AspNetUsers> usersRepository;
 
         private GenericRepository<Restaurant> restaurantRepository;
+        private GenericRepository<RestaurantDTO> restaurantDtoRepository;
         private GenericRepository<Person> personRepository;
         private GenericRepository<Food> foodRepository;
         private GenericRepository<Score> scoreRepository;
@@ -52,6 +54,23 @@ namespace FoodOrder.Repository
                 return restaurantRepository;
             }
         }
+
+        public GenericRepository<RestaurantDTO> RestauranDTOtRepository
+        {
+            get
+            {
+
+                if (this.restaurantDtoRepository == null)
+                {
+                    this.restaurantDtoRepository = new GenericRepository<RestaurantDTO>(context);
+                }
+                return restaurantDtoRepository;
+            }
+        }
+
+
+
+
 
         public GenericRepository<Person> PersonRepository
         {

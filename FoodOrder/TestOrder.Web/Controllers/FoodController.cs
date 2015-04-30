@@ -12,38 +12,54 @@ using FoodOrder.Repository;
 using System.Web.Security;
 using Microsoft.AspNet.Identity;
 using FoodOrder.Core;
+using FoodOrder.Entities.DTO;
+using FoodOrder.Process;
+using TestOrder.Web.ViewModels.Restaurant;
+using TestOrder.Web.ViewModels;
+using TestOrder.Web.ViewModels.Food;
+using AutoMapper;
 
 namespace TestOrder.Web.Controllers
 {
     public class FoodController : Controller
     {
-        
+
         private UnitOfWork unitOfWork;
         private VotingCheck checkVoting;
+        private MappingFoodDTO mappingFoodDto;
+        private FoodDTO foodDto;
+        private FoodProcess foodProcess;
+        private FoodViewModel foodtViewModel;
+        private IndexFoodViewModel indexFoodViewModel;
+        private PersonProcess personProcess;
+
         public FoodController()
         {
             unitOfWork = new UnitOfWork();
             checkVoting = new VotingCheck();
+            foodProcess = new FoodProcess();
+            foodDto = new FoodDTO();
+            mappingFoodDto = new MappingFoodDTO();
+            personProcess = new PersonProcess();
         }
 
         // GET: Food
-        public ActionResult Index(int? FoodByRestaurant=1)
+        public ActionResult Index(int FoodByRestaurant = 1)
         {
+            indexFoodViewModel = new IndexFoodViewModel(foodProcess.getFoodByRestaurant(foodProcess.getAllFood(), FoodByRestaurant));
 
-
-
-            var food = unitOfWork.FoodRepository.Get().Where(x => x.RestaurantID == FoodByRestaurant);
-            return View(food.ToList());
+            return View(indexFoodViewModel);
         }
 
         // GET: Food/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var food = unitOfWork.FoodRepository.GetByID(id);
+            foodtViewModel = new FoodViewModel(foodProcess.getFoodById(id));
+            var food = foodtViewModel;
             if (food == null)
             {
                 return HttpNotFound();
@@ -58,6 +74,7 @@ namespace TestOrder.Web.Controllers
 
 
             ViewBag.RestaurantID = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName");
+
             return View();
         }
 
@@ -67,12 +84,15 @@ namespace TestOrder.Web.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Description,Price,ReviewScore,RestaurantID,NameOfTheFood")] Food food)
+        public ActionResult Create([Bind(Include = "ID,Description,Price,ReviewScore,RestaurantID,NameOfTheFood")] FoodViewModel food)
         {
             if (ModelState.IsValid)
             {
-                unitOfWork.FoodRepository.Insert(food);
-                unitOfWork.Save();
+                Mapper.CreateMap<FoodViewModel, FoodDTO>();
+                foodDto = Mapper.Map<FoodDTO>(food);
+                foodProcess.unitOfWork.FoodRepository.Insert(mappingFoodDto.setFood(foodDto));
+
+                foodProcess.unitOfWork.Save();
                 return RedirectToAction("Index");
             }
 
@@ -82,19 +102,20 @@ namespace TestOrder.Web.Controllers
 
         // GET: Food/Edit/5
         [Authorize]
-        public ActionResult Edit(int? id)
+        public ActionResult Edit(int id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            var food = unitOfWork.FoodRepository.GetByID(id);
-            if (food == null)
+            foodtViewModel = new FoodViewModel(foodProcess.getFoodById(id));
+
+            if (foodtViewModel == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.RestaurantID = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName", food.RestaurantID);
-            return View(food);
+            ViewBag.RestaurantID = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName", foodtViewModel.RestaurantID);
+            return View(foodtViewModel);
         }
 
         // POST: Food/Edit/5
@@ -104,13 +125,17 @@ namespace TestOrder.Web.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Description,Price,ReviewScore,RestaurantID,NameOfTheFood")] Food food, string NameOfTheFood)
+        public ActionResult Edit([Bind(Include = "ID,Description,Price,ReviewScore,RestaurantID,NameOfTheFood")] FoodViewModel food, string NameOfTheFood)
         {
             if (ModelState.IsValid)
             {
                 food.NameOfTheFood = NameOfTheFood;
-                unitOfWork.FoodRepository.Update(food);
-                unitOfWork.Save();
+
+                Mapper.CreateMap<FoodViewModel, FoodDTO>();
+                foodDto = Mapper.Map<FoodDTO>(food);
+
+                foodProcess.unitOfWork.FoodRepository.Update(mappingFoodDto.setFood(foodDto));
+                foodProcess.unitOfWork.Save();
                 return RedirectToAction("Index");
             }
             ViewBag.RestaurantID = new SelectList(unitOfWork.RestaurantRepository.Get(), "ID", "RestaurantName", food.RestaurantID);
@@ -137,31 +162,26 @@ namespace TestOrder.Web.Controllers
         }
 
 
-        public ActionResult GetFoodByRestaurant(int id)
-        {
-            return View(unitOfWork.FoodRepository.Get().Where(x => x.RestaurantID == id));
-
-        }
-
 
         [Authorize]
-        public ActionResult SetScore(int? id)
+        public ActionResult SetScore(int id)
         {
-       
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ViewBag.FoodID = unitOfWork.FoodRepository.GetByID(id).ID;
+            ViewBag.FoodID = foodProcess.getFoodById(id).ID;
 
-            if (unitOfWork.FoodRepository.GetByID(id) == null)
+
+            if (ViewBag.FoodID == null)
             {
                 return HttpNotFound();
             }
 
             var idOfLoggedUserFromLocalDb = User.Identity.GetUserId(); //ID trenutnog korisnika
-    
-            if (checkVoting.CheckIfUserAlreadyVoted(idOfLoggedUserFromLocalDb,id))
+
+            if (checkVoting.CheckIfUserAlreadyVoted(idOfLoggedUserFromLocalDb, id))
             {
                 ViewBag.DidUSerAlreadyVote = true;
                 ViewBag.Score = checkVoting.CheckReviewScore();
@@ -170,21 +190,20 @@ namespace TestOrder.Web.Controllers
             else
             {
                 ViewBag.DidUSerAlreadyVote = false;
-            
+
                 return View();
             }
         }
 
         [Authorize]
         [HttpPost]
-        public ActionResult SetScore(Score score, int id,int VotingScore)
+        public ActionResult SetScore(Score score, int id, int VotingScore)
         {
             var idOfLoggedUserFromLocalDb = User.Identity.GetUserId(); //ID trenutnog korisnika
 
-            var curretUser = unitOfWork.PersonRepository.Get().Single(userID => userID.UserID == idOfLoggedUserFromLocalDb);
-
+            var currentUser = personProcess.getPersonByUserId(idOfLoggedUserFromLocalDb);
             score.FoodID = id;
-            score.PersonID = curretUser.ID;
+            score.PersonID = currentUser.ID;
             score.ReviewScore = VotingScore;
             if (ModelState.IsValid)
             {

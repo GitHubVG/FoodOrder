@@ -61,10 +61,12 @@ C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\TestOrder.Web\obj\Debug
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\TestOrder.Web\obj\Debug\TestOrder.Web.pdb
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\TestOrder.Web\bin\FoodOrder.Core.dll
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\TestOrder.Web\bin\FoodOrder.Core.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.Net4.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\TestOrder.Web.dll.config
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\TestOrder.Web.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\TestOrder.Web.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\Antlr3.Runtime.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\EntityFramework.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\EntityFramework.SqlServer.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\FoodOrder.Core.dll
@@ -98,6 +100,9 @@ C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\FoodOrder.C
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\FoodOrder.Entities.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\FoodOrder.Process.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\FoodOrder.Repository.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.xml
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.Net4.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\System.Web.Helpers.xml
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\System.Web.Mvc.xml
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\System.Web.Optimization.xml
@@ -124,8 +129,3 @@ C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\Microsoft.O
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\obj\Debug\FoodOrder.Web.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\obj\Debug\TestOrder.Web.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\obj\Debug\TestOrder.Web.pdb
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.Net4.dll
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.dll
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.pdb
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.xml
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\TestOrder.Web\bin\AutoMapper.Net4.pdb

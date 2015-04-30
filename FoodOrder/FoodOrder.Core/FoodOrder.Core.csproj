@@ -39,30 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PieChart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Users.cs" />
-    <Compile Include="Votes.cs" />
-    <Compile Include="VotingCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="CodeTemplates\DbHelper.ttinclude" />
     <None Include="CodeTemplates\Manager.ttinclude" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FoodOrder.Entities\FoodOrder.Entities.csproj">
-      <Project>{2640775b-c0a6-4f07-9a35-02e2182cdac0}</Project>
-      <Name>FoodOrder.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FoodOrder.Process\FoodOrder.Process.csproj">
-      <Project>{b7a2240f-08a8-48bb-94bd-b24b812e2f0d}</Project>
-      <Name>FoodOrder.Process</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FoodOrder.Repository\FoodOrder.Data.csproj">
-      <Project>{30659c42-9df8-45c2-9448-6d6b14a878b7}</Project>
-      <Name>FoodOrder.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

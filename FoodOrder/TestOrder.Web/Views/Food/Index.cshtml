@@ -1,4 +1,4 @@
-﻿@model IEnumerable<FoodOrder.Entities.Food>
+﻿@model TestOrder.Web.ViewModels.Food.IndexFoodViewModel
 
 @{
     ViewBag.Title = "Index";
@@ -9,52 +9,52 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.NameOfTheFood)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AverageScore)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Restaurant.RestaurantName)
-        </th>
-       
-        <th></th>
-    </tr>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.listOfFoodByRestaurant.First().NameOfTheFood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.listOfFoodByRestaurant.First().Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.listOfFoodByRestaurant.First().Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.listOfFoodByRestaurant.First().AverageScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.listOfFoodByRestaurant.First().RestaurantName)
+            </th>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NameOfTheFood)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AverageScore)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Restaurant.RestaurantName)
-        </td>
-      
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-            @Html.ActionLink("Vote", "SetScore", new { id = item.ID }, new { @class = "textDecoration" })|
-       
-        </td>
-    </tr>
-}
+            <th></th>
+        </tr>
+        
+    @foreach (var item in Model.listOfFoodByRestaurant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameOfTheFood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AverageScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestaurantName)
+            </td>
 
-</table>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Vote", "SetScore", new { id = item.ID }, new { @class = "textDecoration" })|
+
+            </td>
+        </tr>
+    }
+
+    </table>

@@ -14,17 +14,16 @@ C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Process\bin\D
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Process\obj\Debug\FoodOrder.Process.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Process\obj\Debug\FoodOrder.Process.dll
 C:\Users\Vladimir\Desktop\SPAN - DRUGI PROJEKT\FoodOrder\FoodOrder.Process\obj\Debug\FoodOrder.Process.pdb
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\AutoMapper.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Process.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Process.pdb
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Entities.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Repository.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\EntityFramework.dll
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Entities.dll
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\AutoMapper.dll
+C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Entities.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Repository.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\EntityFramework.xml
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\FoodOrder.Entities.pdb
-C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\AutoMapper.pdb
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\bin\Debug\AutoMapper.xml
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\obj\Debug\FoodOrder.Process.csprojResolveAssemblyReference.cache
 C:\Users\Vladimir\Desktop\SPAN-FoodOrder\FoodOrder\FoodOrder.Process\obj\Debug\FoodOrder.Process.dll
